@@ -9,9 +9,9 @@ Demo code for the Ethereum Brisbane meetup
 5. Use c# NuGet package to deploy the contract
 6. Write a UI
 
-## Notes
+### Notes
 ```
-geth --testnet --rpc --rpcaddr 139.59.38.230
-geth --identity "ato" --datadir "/Users/lucascullen/Chains/ato"
+geth --identity "ato" --nodiscover --datadir "/Users/lucascullen/Chains/ato" --genisis "/Users/lucascullen/GitHub/bitcoinbrisbane/TaxDemo/genisis.json"
+geth account new
 curl 60.226.74.183 -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}'
 ```
