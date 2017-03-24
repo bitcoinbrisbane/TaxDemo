@@ -11,7 +11,9 @@ Demo code for the Ethereum Brisbane meetup
 
 ### Notes
 ```
-geth --identity "ato" --nodiscover --datadir "/Users/lucascullen/Chains/ato" --genisis "/Users/lucascullen/GitHub/bitcoinbrisbane/TaxDemo/TaxDemo/genisis.json"
+geth init "/Users/lucascullen/GitHub/bitcoinbrisbane/TaxDemo/TaxDemo/genesis.json"
+geth.exe --mine --rpc --networkid=39318 --cache=2048 --maxpeers=0 --datadir="/Users/lucascullen/Chains/ato" --rpccorsdomain "*" --rpcapi "eth,web3,personal,net,miner,admin,debug" --ipcapi "eth,web3,personal,net,miner,admin" --verbosity 0 console
+
 geth account new
 curl 60.226.74.183 -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}'
 ```
