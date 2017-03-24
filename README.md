@@ -11,7 +11,7 @@ Demo code for the Ethereum Brisbane meetup
 
 ### Notes
 ```
-geth --identity "ato" --nodiscover --datadir "/Users/lucascullen/Chains/ato" --genisis "/Users/lucascullen/GitHub/bitcoinbrisbane/TaxDemo/genisis.json"
+geth --identity "ato" --nodiscover --datadir "/Users/lucascullen/Chains/ato" --genisis "/Users/lucascullen/GitHub/bitcoinbrisbane/TaxDemo/TaxDemo/genisis.json"
 geth account new
 curl 60.226.74.183 -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}'
 ```
