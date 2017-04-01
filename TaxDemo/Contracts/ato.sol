@@ -15,10 +15,10 @@ contract taxReturn {
     uint public constant taxReturnStartTime = 1498867200; //July 1, 2017
     uint public constant taxReturnEndTime = 1509494400; //Ocotober 31, 2017
 
-    //address public ato;
+    address ato;
     //string public contractUrl = "https://www.ato.gov.au/contract";
 
-    mapping(address => individualReturn) public individualReturns;
+    mapping(address=>individualReturn) public individualReturns;
 
     function taxReturn()
     {
