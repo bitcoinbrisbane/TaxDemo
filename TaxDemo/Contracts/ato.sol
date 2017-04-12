@@ -34,12 +34,7 @@ contract taxReturn {
         // }
         // else
         // {
-            //var taxReturn = new individualReturn(msg.sender, income, 
-
-            //)
-            // taxReturn.income = income;
-            // taxReturn.expenses = expenses;
-            // taxPaid = taxPaid;
+            var taxReturn = individualReturn(msg.sender, income, expenses, taxPaid, now);
 
             if (income < 18499)
             {

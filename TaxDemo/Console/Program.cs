@@ -6,8 +6,11 @@ namespace ConsoleComplete
 {
 	class MainClass
 	{
-		private const String CONTRACT_PATH = @"/Users/lucascullen/GitHub/BitcoinBrisbane/TaxDemo/TaxDemo/Bin/Contracts/";
-		private const String CONTRACT_FILE_NAME = "taxReturn";
+		///Users/lucascullen/GitHub/BitcoinBrisbane/TaxDemo/TaxDemo/Contracts
+		private String CONTRACT_PATH = @"/Users/lucascullen/GitHub/BitcoinBrisbane/TaxDemo/TaxDemo/Bin/Contracts/";
+		private String CONTRACT_FILE_NAME = "taxReturn";
+
+		EnvironmentVariableTarget x;
 
 		public static void Main(string[] args)
 		{
