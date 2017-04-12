@@ -2,12 +2,12 @@
 Demo code for the Ethereum Brisbane meetup
 
 ## Goals for the night
-1. Setup a private geth chain
-2. Create a visual stuido project
-3. Use visual studio code to write a solidty smart contract
-4. Complie the smart contract
-5. Use c# NuGet package to deploy the contract
-6. Write a UI
+1. Setup a private geth chain.  Create genisis file, 3 new accounts and mine some private ether.
+2. Create a visual studio project;  Console app and unit tests using NUnit on Mac
+3. Use Visual Studio Code on Mac to write a solidty smart contract
+4. Complie the smart contract using solc
+5. Use c# NuGet package NEthereum to deploy the contract
+6. Use c# to interface with the contract
 
 ### Notes
 ```
