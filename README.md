@@ -22,3 +22,6 @@ geth --mine --rpc --networkid=39318 --cache=2048 --maxpeers=0 --datadir="/Users/
 geth account new
 curl 60.226.74.183 -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}'
 ```
+
+Links (for image)
+https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4
